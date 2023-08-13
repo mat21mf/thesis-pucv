@@ -1,0 +1,7 @@
+  R --slave -f "RutinaMatConf_Concat_grupo00_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo01_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo02_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo03_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo04_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo05_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Concat_grupo06_kmn0024_var08.R"

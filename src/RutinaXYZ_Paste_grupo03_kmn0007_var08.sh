@@ -1,0 +1,1 @@
+time paste -d',' /cygdrive/d/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/grupo03MaskSample_Join.csv ../bigcsv/bigkmeans_kmn0007_grp03_var08_cluster.csv  > ../bigcsv/bigkmeans_kmn0007_grp03_var08_cluster_nr.csv 

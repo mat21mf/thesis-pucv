@@ -1,0 +1,1 @@
+source FuncionUnirArchivosAWK.sh ; QuitarIdCoordenadas /cygdrive/d/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/grupo03MaskSample_Coord_kmn0007_var08_cluster.csv /cygdrive/d/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/grupo03MaskSample_Coord_kmn0007_var08_cluster_gdal.csv

@@ -1,0 +1,7 @@
+  R --slave -f "RutinaMatConf_Load_grupo00.R"
+  R --slave -f "RutinaMatConf_Load_grupo01.R"
+  R --slave -f "RutinaMatConf_Load_grupo02.R"
+  R --slave -f "RutinaMatConf_Load_grupo03.R"
+  R --slave -f "RutinaMatConf_Load_grupo04.R"
+  R --slave -f "RutinaMatConf_Load_grupo05.R"
+  R --slave -f "RutinaMatConf_Load_grupo06.R"

@@ -1,0 +1,7 @@
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo00/grupo00MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo00MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo01/grupo01MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo01MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo02/grupo02MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo02MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo03/grupo03MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo03MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo04/grupo04MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo04MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo05/grupo05MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo05MaskSample_Coord_kmn0010_var08_cluster_gdal" )
+iface.addRasterLayer( "D:/BIOTOPOS/Rasters/Resultados_Kmeans/grupo06/grupo06MaskSample_Coord_kmn0010_var08_cluster_gdal.tif" , "grupo06MaskSample_Coord_kmn0010_var08_cluster_gdal" )

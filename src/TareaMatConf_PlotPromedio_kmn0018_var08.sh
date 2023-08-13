@@ -1,0 +1,7 @@
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo00_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo01_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo02_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo03_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo04_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo05_kmn0018_var08.R"
+  R --slave -f "RutinaMatConf_PlotPromedio_grupo06_kmn0018_var08.R"

@@ -1,0 +1,16 @@
+  ### Correcto, revisado
+  asxg00 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo00MaskSample/Asp__x_remuestreado_grupo00_mask.grd")
+  asxg01 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo01MaskSample/Asp__x_remuestreado_grupo01_mask.grd")
+  asxg02 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo02MaskSample/Asp__x_remuestreado_grupo02_mask.grd")
+  asxg03 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/Asp__x_remuestreado_grupo03_mask.grd")
+  asxg04 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo04MaskSample/Asp__x_remuestreado_grupo04_mask.grd")
+  asxg05 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo05MaskSample/Asp__x_remuestreado_grupo05_mask.grd")
+  asxg06 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo06MaskSample/Asp__x_remuestreado_grupo06_mask.grd")
+
+  asyg00 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo00MaskSample/Asp__y_remuestreado_grupo00_mask.grd")
+  asyg01 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo01MaskSample/Asp__y_remuestreado_grupo01_mask.grd")
+  asyg02 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo02MaskSample/Asp__y_remuestreado_grupo02_mask.grd")
+  asyg03 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/Asp__y_remuestreado_grupo03_mask.grd")
+  asyg04 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo04MaskSample/Asp__y_remuestreado_grupo04_mask.grd")
+  asyg05 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo05MaskSample/Asp__y_remuestreado_grupo05_mask.grd")
+  asyg06 <- raster::raster("../../DriveBiotopos/Matias_Rebolledo/Raster/CapasFAU23_5/grupo06MaskSample/Asp__y_remuestreado_grupo06_mask.grd")

@@ -1,0 +1,1 @@
+source FuncionUnirArchivosAWK.sh ; UnirArchivosAWK ../bigcsv/bigkmeans_kmn0007_grp03_var08_cluster_nr.csv  /cygdrive/d/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/grupo03MaskSample_Coord.csv /cygdrive/d/Matias_Rebolledo/Raster/CapasFAU23_5/grupo03MaskSample/grupo03MaskSample_Coord_kmn0007_var08_cluster.csv

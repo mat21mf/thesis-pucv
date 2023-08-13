@@ -1,0 +1,7 @@
+  bash RutinaMatConf_PrepararImagen_grupo00_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo01_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo02_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo03_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo04_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo05_kmn0018_var08.sh
+  bash RutinaMatConf_PrepararImagen_grupo06_kmn0018_var08.sh

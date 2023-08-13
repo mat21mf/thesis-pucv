@@ -1,0 +1,7 @@
+  R --slave -f "RutinaSilDist_Dist_grupo00.R"
+  R --slave -f "RutinaSilDist_Dist_grupo01.R"
+  R --slave -f "RutinaSilDist_Dist_grupo02.R"
+  R --slave -f "RutinaSilDist_Dist_grupo03.R"
+  R --slave -f "RutinaSilDist_Dist_grupo04.R"
+  R --slave -f "RutinaSilDist_Dist_grupo05.R"
+  R --slave -f "RutinaSilDist_Dist_grupo06.R"

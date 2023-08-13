@@ -1,0 +1,7 @@
+  R --slave -f "RutinaMatConf_Load_grupo00_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo01_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo02_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo03_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo04_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo05_kmn0024_var08.R"
+  R --slave -f "RutinaMatConf_Load_grupo06_kmn0024_var08.R"

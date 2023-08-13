@@ -1,0 +1,7 @@
+  R --slave -f "RutinaMatConf_BigTabulate_grupo00.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo01.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo02.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo03.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo04.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo05.R"
+  R --slave -f "RutinaMatConf_BigTabulate_grupo06.R"

@@ -1,0 +1,1 @@
+  bash RutinaMatConf_PrepararImagen_grupo03_kmn0007_var08.sh

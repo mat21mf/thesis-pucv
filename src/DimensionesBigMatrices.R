@@ -1,0 +1,31 @@
+  library( bigmemory )
+
+  grupo00st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo00st.desc" ) )
+  grupo01st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo01st.desc" ) )
+  grupo02st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo02st.desc" ) )
+  grupo03st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo03st.desc" ) )
+  grupo04st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo04st.desc" ) )
+  grupo05st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo05st.desc" ) )
+  grupo06st <- bigmemory::attach.big.matrix( dget( "../bigmatrices/grupo06st.desc" ) )
+
+  grupo00st.nrow <- bigmemory::nrow( grupo00st )
+  grupo01st.nrow <- bigmemory::nrow( grupo01st )
+  grupo02st.nrow <- bigmemory::nrow( grupo02st )
+  grupo03st.nrow <- bigmemory::nrow( grupo03st )
+  grupo04st.nrow <- bigmemory::nrow( grupo04st )
+  grupo05st.nrow <- bigmemory::nrow( grupo05st )
+  grupo06st.nrow <- bigmemory::nrow( grupo06st )
+
+  rm( grupo00st )
+  rm( grupo01st )
+  rm( grupo02st )
+  rm( grupo03st )
+  rm( grupo04st )
+  rm( grupo05st )
+  rm( grupo06st )
+
+  load( "kmn_var07_objetos.RData" )
+  save.image( "kmn_var07_objetos.RData" )
+
+  load( "kmn_var08_objetos.RData" )
+  save.image( "kmn_var08_objetos.RData" )

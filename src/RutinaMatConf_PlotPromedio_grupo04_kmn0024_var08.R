@@ -1,0 +1,27 @@
+  load( "grupo04_caracterizar_cluster_kmn0024_var08.RData" )
+  source( "FuncionGraficarMetricas.R" )
+
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_Asp__x.png" , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "Asp__x" , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "Asp__x" , "Valor medio e intervalo de confianza\npor cluster para variable Asp__x" , straxt=25 )
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_Asp__y.png" , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "Asp__y" , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "Asp__y" , "Valor medio e intervalo de confianza\npor cluster para variable Asp__y" , straxt=25 )
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_DEM.png"    , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "DEM"    , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "DEM"    , "Valor medio e intervalo de confianza\npor cluster para variable DEM"    , straxt=25 )
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_NDMI.png"   , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "NDMI"   , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "NDMI"   , "Valor medio e intervalo de confianza\npor cluster para variable NDMI"   , straxt=25 )
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_Slope.png"  , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "Slope"  , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "Slope"  , "Valor medio e intervalo de confianza\npor cluster para variable Slope"  , straxt=25 )
+  FuncionGraficarPromedioCluster( "./png/grupo04_caracterizar_cluster_kmn0024_var08_TWI.png"    , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "TWI"    , grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci , "TWI"    , "Valor medio e intervalo de confianza\npor cluster para variable TWI"    , straxt=25 )
+
+  system( "bash RutinaMatConf_PrepararImagen_grupo04_kmn0024_var08.sh" )
+
+  source( "FuncionExportarExcel.R" )
+
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean[,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_mean.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_sd  [,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_sd__.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_se  [,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_se__.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci  [,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_ci__.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_max [,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_max_.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+  write.table( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_min [,c(3:8,15)] , file="./csv/grupo04_caracterizar_cluster_kmn0024_var08_min_.csv" , sep="@" , row.names=F , col.names=T , quote=F )
+
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_mean , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_mean.csv" , "media"     , "./png/grupo04_caracterizar_cluster_kmn0024_var08.png" )
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_sd   , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_sd__.csv" , "desvest"   , ""                                                 )
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_se   , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_se__.csv" , "errorest"  , ""                                                 )
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_ci   , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_ci__.csv" , "interconf" , ""                                                 )
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_max  , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_max_.csv" , "max"       , ""                                                 )
+  ExportarDataframeVariacionPromedio( grupo04_bigkmeans_kmn0024_grp04_var08_cluster_min  , "./xlsx/grupo04_caracterizar_cluster_kmn0024_var08.xlsx" , "./csv/grupo04_caracterizar_cluster_kmn0024_var08_min_.csv" , "min"       , ""                                                 )
